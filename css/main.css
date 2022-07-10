@@ -768,6 +768,10 @@ img {
   color: #2196f3;
 }
 
+.mob-menu-bottom {
+  padding-left: 48px;
+}
+
 .mob-menu__link-mail {
   text-decoration: none;
   font-weight: 500;
