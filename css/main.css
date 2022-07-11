@@ -166,6 +166,14 @@ img {
   max-width: 360px;
 }
 
+@media screen and (min-width: 1200px) {
+  .main-title {
+    font-size: 44px;
+    max-width: 696px;
+    line-height: 1.36;
+  }
+}
+
 .clients-title {
   text-align: center;
   margin-bottom: 50px;
@@ -228,6 +236,12 @@ img {
 .social-list__link:hover .social-list-icon,
 .social-list__link:focus .social-list-icon {
   fill: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-social {
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -376,7 +390,12 @@ img {
 
 .contact-form-field {
   display: block;
-  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-form-field {
+    margin-bottom: 4px;
+  }
 }
 
 .contact-form-input {
@@ -548,7 +567,6 @@ img {
 @media screen and (max-width: 1199px) {
   .contact-form-footer .contact-form-field {
     text-align: center;
-    margin-top: 60px;
   }
 }
 
@@ -693,6 +711,17 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 48px 40px;
   -webkit-transition: opacity 250ms linear, visibility 250ms linear;
   transition: opacity 250ms linear, visibility 250ms linear;
 }
@@ -984,6 +1013,13 @@ img {
   margin-left: auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding: 200px 0;
+    max-width: 1600px;
+  }
+}
+
 .our-team {
   background-color: #f5f4fa;
 }
@@ -1052,8 +1088,6 @@ img {
 }
 
 .benefits {
-  margin-top: 60px;
-  margin-bottom: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

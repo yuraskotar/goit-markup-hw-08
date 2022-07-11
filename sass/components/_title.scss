@@ -1,5 +1,5 @@
 .main-title {
-    //width: 696px;
+    
     margin: 0 auto 30px;
     font-weight: 900;
     font-size: 26px;
@@ -8,6 +8,11 @@
     text-transform: uppercase;
     color: var(--secondary-text-color-dark);
     max-width: 360px;
+    @media screen and (min-width: 1200px) {
+      font-size: 44px;
+      max-width: 696px;
+      line-height: 1.36;
+    }
   }
   .clients-title {
     text-align: center;
